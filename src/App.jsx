@@ -1,4 +1,5 @@
 import './App.css'
+import Team from './team'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       
-      
+      <Team></Team>
       <h1>Vite + React</h1>
       <button onClick={appi}>Hello</button>
       
